@@ -1,0 +1,107 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "gitpod.host": "https://luminus.gitpod.cloud",
+  "remote.SSH.remotePlatform": {
+    "*.luminus.gitpod.cloud": "linux"
+  },
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.renderWhitespace": "all",
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.panel.defaultLocation": "right",
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.layoutControl.enabled": false,
+  "files.insertFinalNewline": true,
+  "editor.stickyScroll.maxLineCount": 1,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "git.confirmSync": false,
+  "autoDocstring.generateDocstringOnEnter": false,
+  "autoDocstring.startOnNewLine": true,
+  "workbench.editorAssociations": {
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  },
+  "explorer.confirmDelete": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  // "editor.quickSuggestions": {
+  //   "other": "off"
+  // },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "redhat.telemetry.enabled": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence",
+    "!reference sequence"
+  ],
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "files.associations": {
+    "*.env": "dotenv"
+  },
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+}
